@@ -1,0 +1,16 @@
+<h3 class="mt-5">product-edit.component.ts</h3>
+
+<form [formGroup]="productForm" (ngSubmit)="submit()" class="mt-5">
+  <div class="form-group">
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      aria-describedby="name"
+      placeholder="Product name"
+      formControlName="name"
+    />
+  </div>
+
+  <button type="button" class="btn btn-primary">Submit</button>
+</form>

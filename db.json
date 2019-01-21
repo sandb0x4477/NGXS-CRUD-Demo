@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tosiba Satillite"
+    },
+    {
+      "id": 2,
+      "name": "Lenovo ThinkPad"
+    }
+  ]
+}
