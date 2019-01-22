@@ -1,4 +1,10 @@
-# NgxsCrudDemo
+# NGXS CRUD Demo
+
+![NGXS CRUD Demo](NgxsCrudDemo.jpg)
+
+#### It uses json-server as backend with db.json
+
+##### ++++++++++++++++++++++++++++++++++++++
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 

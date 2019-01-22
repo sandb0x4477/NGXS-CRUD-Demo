@@ -2,11 +2,15 @@
   "products": [
     {
       "id": 1,
-      "name": "Tosiba Satillite"
+      "name": "Toshiba Satelite"
     },
     {
       "id": 2,
-      "name": "Lenovo ThinkPad"
+      "name": "Lenovo ThinkPad 480"
+    },
+    {
+      "id": 3,
+      "name": "Sony Vaio 700"
     }
   ]
 }

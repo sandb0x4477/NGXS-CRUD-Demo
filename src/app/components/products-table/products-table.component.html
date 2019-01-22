@@ -1,4 +1,4 @@
-<h3 class="mt-5">product-table.component.ts</h3>
+<h3 class="mt-3">product-table.component.ts</h3>
 
 <table class="table mt-5">
   <thead>
@@ -8,13 +8,14 @@
       <th scope="col"></th>
     </tr>
   </thead>
+
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Name</td>
+    <tr *ngFor="let product of products">
+      <th scope="row">{{ product.id }}</th>
+      <td>{{ product.name }}</td>
       <td class="text-right">
-        <a href=""><i class="far fa-edit mr-3"></i></a>
-        <a href=""><i class="far fa-trash-alt"></i></a>
+        <i class="far fa-edit mr-3 icon text-success" (click)="editProduct(product)"></i>
+        <i class="far fa-trash-alt icon text-danger" (click)="deleteProduct(product)"></i>
       </td>
     </tr>
   </tbody>
